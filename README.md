@@ -30,8 +30,8 @@ integer value can be adjusted based on available CPU.
 if the image is larger than specified value, a prompt is displayed asking for confirmation
 
 line 132:134--default background image (default NOISE)
-// uncomment 1 of the 3 lines to designate which background type is desired.
-// options are NOISE, WHITE, BLACK
+uncomment 1 of the 3 lines to designate which background type is desired.
+options are NOISE, WHITE, BLACK
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
