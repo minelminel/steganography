@@ -94,6 +94,10 @@ switch nargin
         else
             ReadFile = true;
         end
+        
+    otherwise
+        fprintf('\nWarning: Invalid arguments.\nType "help stegwrite" for more info.\n');
+        return
 end
 
 
