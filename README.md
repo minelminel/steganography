@@ -1,11 +1,14 @@
 # steganography
-Collection of functions for hiding and extracting text from black and white images
+###### Collection of functions for hiding and extracting text from black and white images
 
-stegwrite
+### stegwrite
 
-syntax:   picture = stegwrite(message, skip, outputfile, inputfile)
-wizard:   YES; access by calling function with no input arguments
-help:     help stegwrite
+*syntax:*
+> picture = stegwrite(message, skip, outputfile, inputfile)
+*wizard:*
+> YES; access by calling function with no input arguments
+*help:*
+>help stegwrite
 
 abstract: conceal a text message within a 2-D image array of type UINT8
   
