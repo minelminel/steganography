@@ -22,13 +22,13 @@
 % Example:
 % picture = stegwrite('Hello, world!', 21, 'MyStegWriteExample.png');
 % 
-% © 2019 Michael Lawrenson
+% Â© 2019 Michael Lawrenson
 % 13-Feb-2019 22:47:13
 function picture = stegwrite(varargin)
 
 
 %% Initialization
-endbit = 'ÿ'; % acts as a DELIMITER to break decryption loop
+endbit = 'Ã¿'; % acts as a DELIMITER to break decryption loop
 filetype = '.png';
 defaultselect = 0;
 DisplayImage = true;  % set this to TRUE to display image upon creation
@@ -103,7 +103,7 @@ msg_string = string(message);
 if contains(msg_string, '.txt')
     % message is a filename
     try
-        message = fileread(which(message))
+        message = fileread(which(message));
     catch
         fprintf('%s not found.\n', message);
         return
