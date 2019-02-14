@@ -179,7 +179,7 @@ picture = Image;  % FUNCTION OUTPUT [uint8 array]
 %% Option to display picture
 if DisplayImage
     figure;
-    imshow(picture);
+    imshow(picture,'InitialMagnification','fit');
 end
 
 
