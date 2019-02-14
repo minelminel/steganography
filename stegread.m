@@ -21,7 +21,7 @@
 % Example:
 % msgstring = stegread('MyStegWriteExample.png', 21)
 % 
-% © 2019 Michael Lawrenson
+% Â© 2019 Michael Lawrenson
 % 14-Feb-2019 00:02:04
 function msgstring = stegread(varargin)
 
@@ -132,8 +132,6 @@ end
 msgstring(any(cellfun(@(x) any(isempty(x)),msgstring),2),:)=[];
 Table = cell2table(msgstring);
 Table.Properties.VariableNames = {'Skip','Message'};
-
-% pause(1)
 
 
 %% Write .txt file (if specified)
