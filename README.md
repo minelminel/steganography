@@ -6,15 +6,24 @@ stegwrite
 syntax:   picture = stegwrite(message, skip, outputfile, inputfile)
 
 wizard:   YES; access by calling function with no input arguments
+
 help:     help stegwrite
-  abstract: conceal a text message within a 2-D image array of type UINT8
-    inputs: message, skip, outputfile, inputfile
-      message--either a string or .txt file
-      skip--interval between overwritten array elements
-      outputfile--name of file to be created after function executes
-      inputfile--name of file to be used as background
-    output: picture [uint8 array]
-  user-editable segments within function:
+
+abstract: conceal a text message within a 2-D image array of type UINT8
+  
+inputs: message, skip, outputfile, inputfile
+    
+message--either a string or .txt file
+      
+skip--interval between overwritten array elements
+      
+outputfile--name of file to be created after function executes
+      
+inputfile--name of file to be used as background
+      
+output: picture [uint8 array]
+    
+user-editable segments within function:
     line 28--filetype (default .png)
       type of file to be written, if specified
     line 30--DisplayImage (default TRUE)
