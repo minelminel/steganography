@@ -1,5 +1,5 @@
 # steganography
-###### Collection of functions for hiding and extracting text from black and white images
+###### :lock_with_ink_pen: Collection of functions for hiding and extracting text from black and white images
 
 ## stegwrite
 
