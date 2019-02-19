@@ -25,17 +25,17 @@ output:
 
 #### user-editable segments within function:
 
-*line 28--filetype (default .png)*
+- *line 28--filetype (default .png)*
 > type of file to be written, if specified
 
-*line 30--DisplayImage (default TRUE)*
+- *line 30--DisplayImage (default TRUE)*
 > set to FALSE to bypass image displaying
 
-*line 120--maximum allowable image dimension*
+- *line 120--maximum allowable image dimension*
 > integer value can be adjusted based on available CPU.
 > if the image is larger than specified value, a prompt is displayed asking for confirmation
 
-*line 132:134--default background image (default NOISE)*
+- *line 132:134--default background image (default NOISE)*
 > uncomment 1 of the 3 lines to designate which background type is desired.
 > options are NOISE, WHITE, BLACK
 
